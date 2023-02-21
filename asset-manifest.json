@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/debelles-hairs/static/css/main.8c7075da.css",
+    "main.js": "/debelles-hairs/static/js/main.ebc9a911.js",
+    "static/js/787.788edfb4.chunk.js": "/debelles-hairs/static/js/787.788edfb4.chunk.js",
+    "static/media/header-image.png": "/debelles-hairs/static/media/header-image.c548e12a1827fb566326.png",
+    "static/media/accessories-image.jpg": "/debelles-hairs/static/media/accessories-image.1f40312080b29c3bd800.jpg",
+    "static/media/pomegranate-bliss.jpg": "/debelles-hairs/static/media/pomegranate-bliss.347acf60beb81dff75f2.jpg",
+    "static/media/island-coconut.jpg": "/debelles-hairs/static/media/island-coconut.b41f53331091838920e8.jpg",
+    "static/media/kiwi-lime-squeeze.jpg": "/debelles-hairs/static/media/kiwi-lime-squeeze.9192a3265cf58b307299.jpg",
+    "static/media/wig-making.png": "/debelles-hairs/static/media/wig-making.517da229697c6f757c2a.png",
+    "static/media/wig-laundry.png": "/debelles-hairs/static/media/wig-laundry.94319b7c1aa910a6fc30.png",
+    "static/media/wig-styling.png": "/debelles-hairs/static/media/wig-styling.41188ef9627662348554.png",
+    "static/media/pricing-img.png": "/debelles-hairs/static/media/pricing-img.252664a01928e2d403e0.png",
+    "static/media/debelles-logo.png": "/debelles-hairs/static/media/debelles-logo.9430667b53d21958a099.png",
+    "index.html": "/debelles-hairs/index.html",
+    "main.8c7075da.css.map": "/debelles-hairs/static/css/main.8c7075da.css.map",
+    "main.ebc9a911.js.map": "/debelles-hairs/static/js/main.ebc9a911.js.map",
+    "787.788edfb4.chunk.js.map": "/debelles-hairs/static/js/787.788edfb4.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8c7075da.css",
+    "static/js/main.ebc9a911.js"
+  ]
+}
