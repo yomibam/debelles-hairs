@@ -1,4 +1,4 @@
-export default [
+const wigData = [
   {
     id: 1,
     wigName: "Closure wig customization",
@@ -15,3 +15,5 @@ export default [
     wigPrice: "7,000 - 9,000",
   },
 ];
+
+export default wigData;

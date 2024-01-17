@@ -1,4 +1,4 @@
-export default [
+const careData = [
   {
     id: 1,
     careName: "Revamping",
@@ -20,3 +20,5 @@ export default [
     carePrice: "10,000 - 15,000",
   },
 ];
+
+export default careData;

@@ -1,16 +1,17 @@
 import "./App.css";
 import Accessories from "./components/Accessories";
 import Header from "./components/Header";
-import ProductData from "./ProductData";
+import ProductData from "./data/ProductData";
 import Products from "./components/Products";
 import Services from "./components/Services";
-import ServiceData from "./ServiceData";
+import ServiceData from "./data/ServiceData";
 import Pricing from "./components/Pricing";
-import WigData from "./WigData";
-import FrontalData from "./FrontalData";
-import CareData from "./CareData";
+import WigData from "./data/WigData";
+import FrontalData from "./data/FrontalData";
+import CareData from "./data/CareData";
 import Pricing_image from "./images/pricing-img.png";
 import Footer from "./components/Footer";
+import hr from "./images/hr.png";
 
 function App() {
   const products = ProductData.map((items) => {
@@ -34,14 +35,17 @@ function App() {
   });
   const wigList = WigData.map((items) => {
     return (
-      <Pricing wigName={items.wigName} wigPrice={`_____#${items.wigPrice}`} />
+      <Pricing
+        wigName={items.wigName}
+        wigPrice={`_________________#${items.wigPrice}`}
+      />
     );
   });
   const frontalList = FrontalData.map((items) => {
     return (
       <Pricing
         frontalName={items.frontalName}
-        frontalPrice={`_____#${items.frontalPrice}`}
+        frontalPrice={`_________________#${items.frontalPrice}`}
       />
     );
   });
@@ -49,7 +53,7 @@ function App() {
     return (
       <Pricing
         careName={items.careName}
-        carePrice={`_____#${items.carePrice}`}
+        carePrice={`_________________#${items.carePrice}`}
       />
     );
   });
@@ -66,7 +70,7 @@ function App() {
           taste and preferences.
         </p>
         <section className="products--list">{products}</section>
-        <hr className="main" />
+        <img src={hr} alt="horizontal rule" className="hr" />
       </div>
       <div className="services--main">
         <h2>Our services</h2>
@@ -77,7 +81,7 @@ function App() {
           taste and preferences.
         </p>
         <section className="services--list">{services}</section>
-        <hr className="main" />
+        {/* <img src={hr} alt="horizontal rule" className="hr" /> */}
       </div>
       <div className="prices--main">
         <h2>Our pricing</h2>
@@ -102,7 +106,9 @@ function App() {
               <section>{careList}</section>
             </div>
           </div>
-          <img src={Pricing_image} alt="" className="prices--img" />
+          <div className="prices--img--wrapper">
+            <img src={Pricing_image} alt="" className="prices--img" />
+          </div>
         </div>
       </div>
       <Footer />

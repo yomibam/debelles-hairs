@@ -1,4 +1,4 @@
-export default [
+const productData = [
   {
     id: 1,
     productName: "Alberto VO5 Shampoo",
@@ -42,3 +42,5 @@ export default [
     productImg: "pomegranate-bliss.jpg",
   },
 ];
+
+export default productData;

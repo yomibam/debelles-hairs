@@ -1,4 +1,4 @@
-export default [
+const frontalData = [
   {
     id: 1,
     frontalName: "Frontal customization",
@@ -10,3 +10,5 @@ export default [
     frontalPrice: "5,000",
   },
 ];
+
+export default frontalData;

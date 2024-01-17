@@ -10,7 +10,7 @@ function ContactUs() {
   return (e) => {
     e.preventDefault();
     window.open(
-      "https://wa.me/2349136225444?text=Hello%20,%20I'd%20like%20to%20make%20some%20inquires%20about%20your%20products%20and%20services.",
+      "https://wa.me/2349136225444?text=Hello,%20I'd%20like%20to%20make%20some%20inquires%20about%20your%20products%20and%20services.",
       "_blank",
       "noopener",
       "noreferrer"
@@ -22,7 +22,7 @@ function OrderNow() {
   return (e) => {
     e.preventDefault();
     window.open(
-      "https://wa.me/2349136225444?text=Hello%20,%20I'd%20like%20to%20place%20an%20order.",
+      "https://wa.me/2349136225444?text=Hello,%20I'd%20like%20to%20place%20an%20order.",
       "_blank",
       "noopener",
       "noreferrer"

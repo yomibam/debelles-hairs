@@ -1,4 +1,4 @@
-export default [
+const serviceData = [
   {
     id: 4,
     serviceName: "Wig Styling",
@@ -21,3 +21,5 @@ export default [
     serviceImg: "wig-making.png",
   },
 ];
+
+export default serviceData;

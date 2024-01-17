@@ -1,10 +1,17 @@
 import accessories_image from "../images/accessories-image.jpg";
+import hr from "../images/hr.png";
 
 function Accessories() {
   return (
     <div className="accessories">
       <div className="accessories--main">
-        <img src={accessories_image} className="accessories--image" alt="" />
+        <div className="accessories--image--wrapper">
+          <img
+            src={accessories_image}
+            className="accessories--image"
+            alt="accessories img"
+          />
+        </div>
         <div className="accessories--text">
           <h2>
             Get top of the line
@@ -20,7 +27,7 @@ function Accessories() {
           </p>
         </div>
       </div>
-      <hr className="main" />
+      <img src={hr} alt="horizontal line" className="hr" />
     </div>
   );
 }
